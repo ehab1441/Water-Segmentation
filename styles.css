@@ -1,0 +1,22 @@
+/* Custom Colors */
+:root {
+    --navy: #001f3f; /* Navy Blue */
+    --paige: #dfcca7; /* Paige (Light Brown/Beige) */
+}
+
+/* Apply Paige Background */
+body.bg-paige {
+    background-color: var(--paige);
+}
+
+/* Apply Navy Blue to Sidebar */
+.sidebar.bg-navy {
+    background-color: var(--navy);
+}
+
+/* Make Images Larger */
+.img-fluid {
+    max-width: 500%;
+    height: 500%;
+}
+
