@@ -48,6 +48,18 @@ This application is designed to perform water segmentation on satellite images u
 6. **Access the application**:
    - Open your web browser and go to `http://127.0.0.1:5000/`.
 
+---
+
+## Download Pre-trained Model
+
+The pre-trained model weights (`deeplabv3.pth`) are generated from my Kaggle notebook. Follow these steps to download the model:
+
+1. Visit the Kaggle notebook: [Link to Kaggle Notebook](https://www.kaggle.com/code/mohamedehab14/water-segmentation).
+2. Download the `deeplabv3.pth` file from the notebook's output.
+3. Place the downloaded `deeplabv3.pth` file in the root directory of this project.
+
+---
+
 ## Usage
 
 1. **Upload an Image**:
